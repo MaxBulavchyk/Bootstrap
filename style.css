@@ -1,0 +1,77 @@
+.row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    background: orange;
+    flex: 1 1 auto ;
+    height: 30px;
+}
+
+.col-2 {
+    background: orange;
+    flex: 0 1 calc(50% - 30px);
+    height: 30px;
+}
+
+.col-3 {
+    background: orange;
+    flex: 0 1 calc(33.3% - 30px);
+    height: 30px;
+}
+
+.col-4 {
+    background: orange;
+    flex: 0 1 calc(25% - 30px);
+    height: 30px;
+}
+
+.col-5 {
+    background: orange;
+    flex: 0 1 calc(20% - 30px);
+    height: 30px;
+}
+
+.col-6 {
+    background: orange;
+    flex: 0 1 calc(16.66% - 30px);
+    height: 30px;
+}
+
+.col-7 {
+    background: orange;
+    flex: 0 1 calc(14.29% - 30px);
+    height: 30px;
+}
+
+.col-8 {
+    background: orange;
+    flex: 0 1 calc(12.5% - 30px);
+    height: 30px;
+}
+
+.col-9 {
+    background: orange;
+    flex: 0 1 calc(11.11% - 30px);
+    height: 30px;
+}
+
+.col-10 {
+    background: orange;
+    flex: 0 1 calc(10% - 30px);
+    height: 30px;
+}
+
+.col-11 {
+    background: orange;
+    flex: 0 1 calc(9.09% - 30px);
+    height: 30px;
+}
+
+.col-12 {
+    background: orange;
+    flex: 0 1 calc(8.33% - 30px);
+    height: 30px;
+}
