@@ -4,25 +4,25 @@
     flex-wrap: wrap;
 }
 
-.col-1 {
+.col-12 {
     background: orange;
-    flex: 1 1 auto ;
+    flex: 0 1 calc(100% - 30px);
     height: 30px;
 }
 
-.col-2 {
+.col-6 {
     background: orange;
     flex: 0 1 calc(50% - 30px);
     height: 30px;
 }
 
-.col-3 {
+.col-4 {
     background: orange;
     flex: 0 1 calc(33.3% - 30px);
     height: 30px;
 }
 
-.col-4 {
+.col-3 {
     background: orange;
     flex: 0 1 calc(25% - 30px);
     height: 30px;
@@ -34,7 +34,7 @@
     height: 30px;
 }
 
-.col-6 {
+.col-2 {
     background: orange;
     flex: 0 1 calc(16.66% - 30px);
     height: 30px;
@@ -70,8 +70,10 @@
     height: 30px;
 }
 
-.col-12 {
+
+.col-1 {
     background: orange;
     flex: 0 1 calc(8.33% - 30px);
     height: 30px;
 }
+
